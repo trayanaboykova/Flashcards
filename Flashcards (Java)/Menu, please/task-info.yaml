@@ -5,6 +5,7 @@ files:
     visible: true
     learner_created: false
   - name: test/FlashcardsTest.java
+    visible: true
     learner_created: false
 feedback_link: https://hyperskill.org/projects/44/stages/236/implement#comment
 status: Unchecked
