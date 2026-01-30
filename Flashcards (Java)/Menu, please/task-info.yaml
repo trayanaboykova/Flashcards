@@ -1,0 +1,11 @@
+type: edu
+custom_name: "Menu, please!"
+files:
+  - name: src/flashcards/Main.java
+    visible: true
+    learner_created: false
+  - name: test/FlashcardsTest.java
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/44/stages/236/implement#comment
+status: Unchecked
+record: -1
