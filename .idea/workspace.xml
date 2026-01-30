@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4832aa6-e913-4677-9d39-f599f00e53fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/A good stack/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/A good stack/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/IMPORTant/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/IMPORTant/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Make it your own/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Make it your own/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Stage one, card one/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Stage one, card one/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/What’s on the card/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/What’s on the card/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/src/flashcards/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/src/flashcards/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +44,7 @@
   <component name="HsSqlInitializationState">
     <taskDatabasesInitialized>
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Stage one, card one/db/db" />
+      <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/What’s on the card/db/db" />
     </taskDatabasesInitialized>
   </component>
   <component name="McpProjectServerCommands">
@@ -77,6 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Tests in 'Flashcards.Flashcards__Java_-task.test'.executor": "Run",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
     "Hyperskill.LearningObjectsStorageType": "SQLite",
     "Hyperskill.Yaml.Migrate": "true",
@@ -119,7 +103,7 @@
       <updated>1769785655065</updated>
       <workItem from="1769785656398" duration="1764000" />
       <workItem from="1769787457111" duration="11000" />
-      <workItem from="1769789223687" duration="567000" />
+      <workItem from="1769789223687" duration="1331000" />
     </task>
     <servers />
   </component>

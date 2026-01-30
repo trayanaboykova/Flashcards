@@ -6,12 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Card:");
-        String term = scanner.nextLine();
-        System.out.println(term);
+        String term = scanner.nextLine();        // read term
+        String definition = scanner.nextLine();  // read correct definition
+        String answer = scanner.nextLine();      // read user's answer
 
-        System.out.println("Definition:");
-        String definition = scanner.nextLine();
-        System.out.println(definition);
+        if (answer.equals(definition)) {
+            System.out.println("Your answer is right!");
+        } else {
+            System.out.println("Your answer is wrong...");
+        }
     }
 }

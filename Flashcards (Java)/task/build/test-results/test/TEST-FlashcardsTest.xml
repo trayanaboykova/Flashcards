@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-30T16:16:48.664Z" hostname="TRAYANA" time="0.039">
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-30T16:29:28.173Z" hostname="TRAYANA" time="0.049">
   <properties/>
-  <testcase name="start" classname="FlashcardsTest" time="0.039"/>
+  <testcase name="start" classname="FlashcardsTest" time="0.049"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Card:
-> brusque
-brusque
-Definition:
-> short and abrupt
-short and abrupt
+> print()
+> outputs text
+> outputs text
+Your answer is right!
 ?[1;31m
 Start test 2?[0m
-Card:
-> (a + b)^2
-(a + b)^2
-Definition:
-> a^2 + b^2 + 2ab
-a^2 + b^2 + 2ab
+> Dog
+> A barking animal
+> A barking animal
+Your answer is right!
+?[1;31m
+Start test 3?[0m
+> Jetbrains
+> A place for people who love to code
+> A place for people who hate to code
+Your answer is wrong...
+?[1;31m
+Start test 4?[0m
+> Cat
+> A barking animal
+> A purring animal
+Your answer is wrong...
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
