@@ -5,39 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4832aa6-e913-4677-9d39-f599f00e53fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/A subset of sorted set/Flashcards.Topics-The_Set_interface-A_subset_of_sorted_set.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/A subset of sorted set/Flashcards.Topics-The_Set_interface-A_subset_of_sorted_set.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/A subset of sorted set/Flashcards.Topics-The_Set_interface-A_subset_of_sorted_set.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Creating a set/Flashcards.Topics-The_Set_interface-Creating_a_set.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Creating a set/Flashcards.Topics-The_Set_interface-Creating_a_set.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Creating a set/Flashcards.Topics-The_Set_interface-Creating_a_set.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Essentials/Flashcards.Topics-The_Set_interface-Essentials.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Essentials/Flashcards.Topics-The_Set_interface-Essentials.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Essentials/Flashcards.Topics-The_Set_interface-Essentials.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Implementations/Flashcards.Topics-The_Set_interface-Implementations.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Implementations/Flashcards.Topics-The_Set_interface-Implementations.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Implementations/Flashcards.Topics-The_Set_interface-Implementations.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The Set interface/Flashcards.Topics-The_Set_interface-The_Set_interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The Set interface/Flashcards.Topics-The_Set_interface-The_Set_interface.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The Set interface/Flashcards.Topics-The_Set_interface-The_Set_interface.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The set of programming languages/Flashcards.Topics-The_Set_interface-The_set_of_programming_languages.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The set of programming languages/Flashcards.Topics-The_Set_interface-The_set_of_programming_languages.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/The set of programming languages/Flashcards.Topics-The_Set_interface-The_set_of_programming_languages.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Tree set elements order/Flashcards.Topics-The_Set_interface-Tree_set_elements_order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Tree set elements order/Flashcards.Topics-The_Set_interface-Tree_set_elements_order.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/The Set interface/Tree set elements order/Flashcards.Topics-The_Set_interface-Tree_set_elements_order.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Make it your own/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Make it your own/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/A good stack/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/A good stack/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/classes/java/main/flashcards/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/classes/java/main/flashcards/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/classes/java/test/FlashcardsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/classes/java/test/FlashcardsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/classes/FlashcardsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/classes/FlashcardsTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/TEST-FlashcardsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/TEST-FlashcardsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/FlashcardsTest.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileTestJava/compileTransaction/stash-dir/FlashcardsTest.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/src/flashcards/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/src/flashcards/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +74,7 @@
     <taskDatabasesInitialized>
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/A good stack/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Make it your own/db/db" />
+      <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Menu, please/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Stage one, card one/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/What’s on the card/db/db" />
     </taskDatabasesInitialized>
@@ -140,7 +136,7 @@
       <updated>1769785655065</updated>
       <workItem from="1769785656398" duration="1764000" />
       <workItem from="1769787457111" duration="11000" />
-      <workItem from="1769789223687" duration="8391000" />
+      <workItem from="1769789223687" duration="9483000" />
     </task>
     <servers />
   </component>
