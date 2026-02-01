@@ -22,12 +22,21 @@ public class Main {
         }
     }
 
-    // term -> Card (keep insertion order for nicer behavior)
     private static final Map<String, Card> cards = new LinkedHashMap<>();
-    // definition -> term (for “your definition is correct for …”)
     private static final Map<String, String> defToTerm = new HashMap<>();
 
+    private static String importFile = null;
+    private static String exportFile = null;
+
     public static void main(String[] args) {
+        parseArgs(args);
+
+        // auto-import at start (must print as first line if provided)
+        if (importFile != null) {
+            int loaded = importFromFile(importFile);
+            out(loaded + " cards have been loaded.");
+        }
+
         while (true) {
             out("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):");
             String action = in();
@@ -40,16 +49,16 @@ public class Main {
                     removeCard();
                     break;
                 case "import":
-                    importCards();
+                    importCardsInteractive();
                     break;
                 case "export":
-                    exportCards();
+                    exportCardsInteractive();
                     break;
                 case "ask":
                     askCards();
                     break;
                 case "log":
-                    saveLog();
+                    saveLogInteractive();
                     break;
                 case "hardest card":
                     hardestCard();
@@ -59,15 +68,31 @@ public class Main {
                     break;
                 case "exit":
                     out("Bye bye!");
+                    // auto-export at end (must be last line if provided)
+                    if (exportFile != null) {
+                        int saved = exportToFile(exportFile);
+                        out(saved + " cards have been saved.");
+                    }
                     return;
                 default:
                     // ignore unknown actions
                     break;
             }
-            out(""); // blank line between actions
+            out("");
         }
     }
 
+    private static void parseArgs(String[] args) {
+        for (int i = 0; i < args.length - 1; i++) {
+            if ("-import".equals(args[i])) {
+                importFile = args[i + 1];
+            } else if ("-export".equals(args[i])) {
+                exportFile = args[i + 1];
+            }
+        }
+    }
+
+    // ---------- actions ----------
     private static void addCard() {
         out("The card:");
         String term = in();
@@ -106,7 +131,7 @@ public class Main {
         out("The card has been removed.");
     }
 
-    private static void importCards() {
+    private static void importCardsInteractive() {
         out("File name:");
         String fileName = in();
 
@@ -116,57 +141,16 @@ public class Main {
             return;
         }
 
-        int loaded = 0;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                // format: term \t definition \t errors
-                String[] parts = line.split("\t");
-                if (parts.length < 2) continue;
-
-                String term = parts[0];
-                String def = parts[1];
-                int errors = 0;
-
-                if (parts.length >= 3) {
-                    try {
-                        errors = Integer.parseInt(parts[2]);
-                    } catch (NumberFormatException ignored) {
-                        errors = 0;
-                    }
-                }
-
-                // overwrite existing card if present
-                if (cards.containsKey(term)) {
-                    Card old = cards.get(term);
-                    defToTerm.remove(old.definition);
-                }
-
-                Card c = new Card(term, def, errors);
-                cards.put(term, c);
-                defToTerm.put(def, term);
-
-                loaded++;
-            }
-        } catch (IOException ignored) {
-        }
-
+        int loaded = importFromFile(fileName);
         out(loaded + " cards have been loaded.");
     }
 
-    private static void exportCards() {
+    private static void exportCardsInteractive() {
         out("File name:");
         String fileName = in();
 
-        try (PrintWriter outFile = new PrintWriter(new FileWriter(fileName))) {
-            for (Card c : cards.values()) {
-                outFile.println(c.term + "\t" + c.definition + "\t" + c.errors);
-            }
-        } catch (IOException ignored) {
-        }
-
-        out(cards.size() + " cards have been saved.");
+        int saved = exportToFile(fileName);
+        out(saved + " cards have been saved.");
     }
 
     private static void askCards() {
@@ -223,27 +207,72 @@ public class Main {
     }
 
     private static void resetStats() {
-        for (Card c : cards.values()) {
-            c.errors = 0;
-        }
+        for (Card c : cards.values()) c.errors = 0;
         out("Card statistics have been reset.");
     }
 
-    private static void saveLog() {
+    private static void saveLogInteractive() {
         out("File name:");
         String fileName = in();
 
         try (PrintWriter pw = new PrintWriter(new FileWriter(fileName))) {
-            for (String line : log) {
-                pw.println(line);
-            }
+            for (String line : log) pw.println(line);
         } catch (IOException ignored) {
         }
 
         out("The log has been saved.");
     }
 
-    // --- logging helpers (must log BOTH output and user input) ---
+    // ---------- file IO (tab-separated: term \t definition \t errors) ----------
+    private static int importFromFile(String fileName) {
+        int loaded = 0;
+
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] parts = line.split("\t");
+                if (parts.length < 2) continue;
+
+                String term = parts[0];
+                String def = parts[1];
+
+                int errors = 0;
+                if (parts.length >= 3) {
+                    try {
+                        errors = Integer.parseInt(parts[2]);
+                    } catch (NumberFormatException ignored) {
+                        errors = 0;
+                    }
+                }
+
+                // overwrite existing term if present
+                if (cards.containsKey(term)) {
+                    Card old = cards.get(term);
+                    defToTerm.remove(old.definition);
+                }
+
+                cards.put(term, new Card(term, def, errors));
+                defToTerm.put(def, term);
+
+                loaded++;
+            }
+        } catch (IOException ignored) {
+        }
+
+        return loaded;
+    }
+
+    private static int exportToFile(String fileName) {
+        try (PrintWriter outFile = new PrintWriter(new FileWriter(fileName))) {
+            for (Card c : cards.values()) {
+                outFile.println(c.term + "\t" + c.definition + "\t" + c.errors);
+            }
+        } catch (IOException ignored) {
+        }
+        return cards.size();
+    }
+
+    // ---------- logging helpers ----------
     private static void out(String s) {
         System.out.println(s);
         log.add(s);

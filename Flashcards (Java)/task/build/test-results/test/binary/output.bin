@@ -305,28 +305,28 @@ Bye bye!
 > ask
 How many times to ask?
 > 6
-%Print the definition of "daughter":
-> a female child
-
-Correct!
-%Print the definition of "daughter":
-> a female child
-
-Correct!
 "Print the definition of "ankle":
 5> a part of the body where the foot and the leg meet
+
+Correct!
+%Print the definition of "daughter":
+> a female child
 
 Correct!
 "Print the definition of "str()":
 > converts to a string
 
 Correct!
-"Print the definition of "ankle":
-5> a part of the body where the foot and the leg meet
+%Print the definition of "daughter":
+> a female child
 
 Correct!
- Print the definition of "son":
-> a male child
+"Print the definition of "str()":
+> converts to a string
+
+Correct!
+%Print the definition of "daughter":
+> a female child
 
 Correct!
 
@@ -389,24 +389,24 @@ Bye bye!
 > ask
 How many times to ask?
 > 6
+%Print the definition of "daughter":
+!> a female child or a male child
+.Wrong. The right answer is "a female child".
+"Print the definition of "ankle":
+@> a part of the body where the foot and the leg meet or the arm
+RWrong. The right answer is "a part of the body where the foot and the leg meet".
+%Print the definition of "daughter":
+!> a female child or a male child
+.Wrong. The right answer is "a female child".
 "Print the definition of "uncle":
 ,> a brother of one's parent or grandparents
 9Wrong. The right answer is "a brother of one's parent".
 "Print the definition of "ankle":
 @> a part of the body where the foot and the leg meet or the arm
 RWrong. The right answer is "a part of the body where the foot and the leg meet".
-"Print the definition of "ankle":
-@> a part of the body where the foot and the leg meet or the arm
-RWrong. The right answer is "a part of the body where the foot and the leg meet".
-%Print the definition of "daughter":
-!> a female child or a male child
-.Wrong. The right answer is "a female child".
-%Print the definition of "daughter":
-!> a female child or a male child
-.Wrong. The right answer is "a female child".
-%Print the definition of "daughter":
-!> a female child or a male child
-.Wrong. The right answer is "a female child".
+"Print the definition of "uncle":
+,> a brother of one's parent or grandparents
+9Wrong. The right answer is "a brother of one's parent".
 
 \Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 > exit
@@ -467,24 +467,24 @@ Bye bye!
 > ask
 How many times to ask?
 > 6
-$Print the definition of "print()":
-> converts to a string
-]Wrong. The right answer is "outputs text", but your definition is correct for "str()" card.
-"Print the definition of "ankle":
-> a brother of one's parent
-ƒWrong. The right answer is "a part of the body where the foot and the leg meet", but your definition is correct for "uncle" card.
- Print the definition of "son":
-> a female child
-`Wrong. The right answer is "a male child", but your definition is correct for "daughter" card.
 "Print the definition of "uncle":
 5> a part of the body where the foot and the leg meet
 jWrong. The right answer is "a brother of one's parent", but your definition is correct for "ankle" card.
-$Print the definition of "print()":
-> converts to a string
-]Wrong. The right answer is "outputs text", but your definition is correct for "str()" card.
+"Print the definition of "str()":
+> a male child
+cWrong. The right answer is "converts to a string", but your definition is correct for "son" card.
+"Print the definition of "uncle":
+5> a part of the body where the foot and the leg meet
+jWrong. The right answer is "a brother of one's parent", but your definition is correct for "ankle" card.
  Print the definition of "son":
 > a female child
 `Wrong. The right answer is "a male child", but your definition is correct for "daughter" card.
+"Print the definition of "str()":
+> a male child
+cWrong. The right answer is "converts to a string", but your definition is correct for "son" card.
+"Print the definition of "str()":
+> a male child
+cWrong. The right answer is "converts to a string", but your definition is correct for "son" card.
 
 \Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
 > exit
@@ -726,3 +726,50 @@ Bye bye!
 > exit
 
 Bye bye!
+[1;31m
+Start test 17[0m
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> hardest card
+!There are no cards with errors.
+
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> Movie
+The definition of the card:
+R> A recorded sequence of images displayed on a screen at a rate sufficiently fast
+vThe pair ("Movie":"A recorded sequence of images displayed on a screen at a rate sufficiently fast") has been added.
+
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+
+Bye bye!
+1 cards have been saved.
+[1;31m
+Start test 18[0m
+1 cards have been loaded.
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+> Movie
+"The card "Movie" already exists.
+
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+	> remove
+Which card?
+> Movie
+The card has been removed.
+
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> add
+The card:
+	> Series
+The definition of the card:
+:> A television program which consists of several episodes
+_The pair ("Series":"A television program which consists of several episodes") has been added.
+
+\Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+> exit
+
+Bye bye!
+1 cards have been saved.

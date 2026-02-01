@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4832aa6-e913-4677-9d39-f599f00e53fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.0.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.0.0/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Menu, please/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,7 @@
   <component name="HsSqlInitializationState">
     <taskDatabasesInitialized>
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/A good stack/db/db" />
+      <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/IMPORTant/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Make it your own/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Menu, please/db/db" />
       <option value="jdbc:h2:file:D:/Coding/GitHub/Flashcards/Flashcards (Java)/Stage one, card one/db/db" />
@@ -117,7 +112,7 @@
       <updated>1769785655065</updated>
       <workItem from="1769785656398" duration="1764000" />
       <workItem from="1769787457111" duration="11000" />
-      <workItem from="1769789223687" duration="9981000" />
+      <workItem from="1769789223687" duration="10268000" />
     </task>
     <servers />
   </component>
