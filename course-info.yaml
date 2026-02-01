@@ -11,6 +11,7 @@ programming_language: Java
 programming_language_version: 11
 content:
   - Flashcards (Java)
+  - Topics
 additional_files:
   - name: .idea/inspectionProfiles/Project_Default.xml
     visible: true
