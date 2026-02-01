@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4832aa6-e913-4677-9d39-f599f00e53fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/Statistics/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Flashcards (Java)/task/test/FlashcardsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4832aa6-e913-4677-9d39-f599f00e53fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,7 @@
       <updated>1769785655065</updated>
       <workItem from="1769785656398" duration="1764000" />
       <workItem from="1769787457111" duration="11000" />
-      <workItem from="1769789223687" duration="10268000" />
+      <workItem from="1769789223687" duration="11037000" />
     </task>
     <servers />
   </component>
